@@ -47,8 +47,8 @@ class _NameUser extends State<NameUser>  {
                 itemCount: user.length.toInt(),
                 itemBuilder: (_, index) {
                   return Text(
-                    "Name: ${user[index].name} \nUserName: ${user[index].username} \nWebsite: ${user[index].website} \n",
-                    style: TextStyle(color: Colors.black87, fontSize: 30),
+                    " Name: ${user[index].name} \n UserName: ${user[index].username} \n Company: ${user[index].company.name} \n",
+                    style: TextStyle(color: Colors.black87, fontSize: 25),
                   );
                 }
             )
